@@ -1,13 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
 
-function App() {
+function ComponenteFuncional() {
   return (
-    <div>
+    <h1>
       Hello World
-    </div>
+    </h1>    
   );
+}
+
+class App extends React.Component{
+  render(){
+    return(
+      <h2>Hello World from App</h2>
+    )
+  }
 }
 
 export default App;
